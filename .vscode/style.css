@@ -162,3 +162,14 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* midia queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assents/bg-jpg.png);
+  }
+
+  .light {
+    --bg-url: url(./assents/bg-light.png);
+  }
+}
